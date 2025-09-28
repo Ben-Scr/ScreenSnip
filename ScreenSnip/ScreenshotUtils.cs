@@ -48,6 +48,7 @@ namespace ScreenSnip
         private static string GetImagesDirectoryPath()
         {
             string dirPath = string.Empty;
+
             // Check for any command line arguments
             string[] args = Environment.GetCommandLineArgs();
             if (args.Length == 2) dirPath = args[1];
